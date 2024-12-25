@@ -23,7 +23,7 @@ sudo apt update
 sudo apt upgrade
 ```
 
-![Captura de tela de 2024-12-20 19-14-22.png](documentac%CC%A7a%CC%83o%20servidor%20nginx%20162d69742e1c807ba497ed60d2a3b96a/Captura_de_tela_de_2024-12-20_19-14-22.png)
+![Captura de tela de 2024-12-20 19-14-22.png](img/Captura_de_tela_de_2024-12-20_19-14-22.png)
 
 ## instale o nginx
 
@@ -38,7 +38,7 @@ confira se o Nginx esta ativado com:
 sudo systemctl status nginx
 ```
 
-![Captura de tela de 2024-12-21 17-48-42.png](documentac%CC%A7a%CC%83o%20servidor%20nginx%20162d69742e1c807ba497ed60d2a3b96a/Captura_de_tela_de_2024-12-21_17-48-42.png)
+![Captura de tela de 2024-12-21 17-48-42.png](img/Captura_de_tela_de_2024-12-21_17-48-42.png)
 
 se o serviço estiver com status de desativado use:
 
@@ -49,7 +49,7 @@ sudo systemctl enable nginx
 
 se você seguiu todos os passos corretamente, você ja consegue acessar seu servidor por [https://localhost/](https://localhost/) 
 
-![Captura de tela de 2024-12-22 10-12-20.png](documentac%CC%A7a%CC%83o%20servidor%20nginx%20162d69742e1c807ba497ed60d2a3b96a/Captura_de_tela_de_2024-12-22_10-12-20.png)
+![Captura de tela de 2024-12-22 10-12-20.png](img/Captura_de_tela_de_2024-12-22_10-12-20.png)
 
 ## Criação de script de validação
 
@@ -122,10 +122,10 @@ pode salvar e sair.
 
 agora voce vai ter o registro de dois arquivos .log que monitaram seu servidor Nginx.
 
-![Captura de tela de 2024-12-23 14-39-40.png](documentac%CC%A7a%CC%83o%20servidor%20nginx%20162d69742e1c807ba497ed60d2a3b96a/Captura_de_tela_de_2024-12-23_14-39-40.png)
+![Captura de tela de 2024-12-23 14-39-40.png](img/Captura_de_tela_de_2024-12-23_14-39-40.png)
 
 ## Conclusão:
 
 Após seguir todos os passos, você já terá um servidor funcionando com monitoramento ativo.
 
-![tets.jpeg](documentac%CC%A7a%CC%83o%20servidor%20nginx%20162d69742e1c807ba497ed60d2a3b96a/tets.jpeg)
+![tets.jpeg](img/tets.jpeg)
