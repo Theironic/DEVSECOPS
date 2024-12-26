@@ -5,7 +5,11 @@
 - Criar um servidor Nginx
 - Criar um script que tenha duas saidas de logs um para status online e outro offline
 - automatizar a execucao com o Cron
+### Notas
+Usei como base a distro ubuntu,alguns comandos que usam o gerenciador de pacotes apt serão diferentes, consulte quais sao os comandos equiavalente do seu gerenciador de pacotes.
+deixei os scripts auto.sh (monitoramento) e Nginx_install.sh (para automatizar a instalacao do Nginx ), voce podera usar em uma estancia ec2 AWS ou localmente. ou se preferir pode seguir os passos manualemnete seguindo essa doc.
 
+presumo que voce ja consiga criar uma estancia ec2, caso contrario procure a doc da [AWS](https://docs.aws.amazon.com/)
 ## requisitos do projeto
 
 - WSL ou Linux
