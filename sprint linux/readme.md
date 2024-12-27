@@ -6,8 +6,8 @@
 - Criar um script que tenha duas saidas de logs um para status online e outro offline.
 - Automatizar a execucao com o Cron.
 ### Notas.
-Usei como base a distro ubuntu,alguns comandos que usam o gerenciador de pacotes apt serão diferentes, consulte quais são os comandos equiavalente do seu gerenciador de pacotes.
-Deixei os scripts auto.sh (monitoramento) e Nginx_install.sh (para automatizar a instalação do Nginx ), você podera usar em uma instância ec2 AWS ou localmente. ou se preferir pode seguir os passos manualemnete seguindo essa doc.
+Usei como base a distro ubuntu,alguns comandos que usam o gerenciador de pacotes apt serão diferentes em outras distros que não usam o apt, consulte quais são os comandos equiavalente do seu gerenciador de pacotes.
+Deixei os scripts auto.sh (monitoramento) e Nginx_install.sh (para automatizar a instalação do Nginx ), você podera usar em uma instância ec2 AWS ou localmente. ou se preferir pode seguir os passos manualmente seguindo essa doc.
 Os caminhos de diretorios a seguir sao meramente ilustrativos, adapte para o seu ambiente.
 
 Presumo que você já consiga criar uma instância ec2, caso contrário procure a doc da [AWS](https://docs.aws.amazon.com/)
@@ -59,7 +59,7 @@ sudo systemctl start nginx
 sudo systemctl enable nginx
 ```
 
-se você seguiu todos os passos corretamente, você ja consegue acessar seu servidor por [https://localhost/](https://localhost/) ou pelo ip da sua maquina por http
+se você seguiu todos os passos corretamente, você já consegue acessar seu servidor por [https://localhost/](https://localhost/) ou pelo ip da sua máquina por http
 
 ![Captura de tela de 2024-12-22 10-12-20.png](img/Captura_de_tela_de_2024-12-22_10-12-20.png)
 
@@ -67,7 +67,7 @@ se você seguiu todos os passos corretamente, você ja consegue acessar seu serv
 
 Usaremos o cron (daemo) para agendar a execução do script.
 
-Crie dois diretorios (com nome da sua escolha), um para o script e outro para armazenar a o log do servidor do script na pasta do usuario.
+Crie dois diretorios (com nome da sua escolha), um para o script e outro para armazenar a o log do servidor do script na pasta do usuário.
 
 ```bash
 mkdir shell
