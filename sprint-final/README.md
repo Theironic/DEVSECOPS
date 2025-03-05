@@ -1,6 +1,8 @@
 # 🚀 Projeto final.
 **Desafio Final: Modernização e Migração para a AWS**
 
+[![stack](https://skillicons.dev/icons?i=aws,kubernetes&perline=10)](https://skillicons.dev)
+
 O desafio final do programa PB propõe uma experiência prática e desafiadora para os participantes, simulando um cenário real de migração e modernização de infraestrutura na nuvem. O projeto tem como objetivo desenvolver uma solução viável para um e-commerce em expansão, que atualmente opera em servidores locais e enfrenta dificuldades para suportar o aumento da demanda.
 ### Principais etapas
 1 - **Migração Lift-and-Shift**: Nesta fase inicial, a solução deve garantir a migração rápida da infraestrutura existente para a AWS, mantendo a operação do sistema sem grandes alterações. 
@@ -27,6 +29,8 @@ INCRÍVEIS".
 Nosso eCommerce está crescendo e a solução
 atual não está atendendo mais a alta demanda de
 acessos e compras que estamos tendo.
+
+![atores](img/caso.png)
 ___
 ### Arquitetura da FastEnginrrting.
 ![Arquitetura atual](img/fast.webp)
@@ -41,3 +45,7 @@ CPU
 - 500GB de dados, 10Gb de RAM, 3 Core CPU
 
 Vistas as necessidades de migração e aumento da escalabilidade do e-commerce, projetaremos uma solução robusta, escalável e com alta disponibilidade na AWS. Ao adotarmos as boas práticas da AWS e Devops, garantiremos um crescimento escalável e sustentável para o site.
+
+
+![Arquitetur na aws](img/aws-diagram.png)
+*Diagrama apos a migracao*
