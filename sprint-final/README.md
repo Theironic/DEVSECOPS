@@ -47,6 +47,28 @@ CPU
 Vistas as necessidades de migração e aumento da escalabilidade do e-commerce, projetaremos uma solução robusta, escalável e com alta disponibilidade na AWS. Ao adotarmos as boas práticas da AWS e Devops, garantiremos um crescimento escalável e sustentável para o site.
 
 
+```Quais atividades necessarias para migração ? ```
+---
+
+
+```Quais ferramentas vão ser utilizadas ?```
+---
+
+
+```Qual diagrama da infraestrutura AWS ?```
+---
 como ficaria a migração lift-and- shift na AWS da FastEnginrrting:
+
+
 ![Arquitetur na aws](img/aws-diagram.png)
-*Diagrama após a migracao*
+*Diagrama após a migração*
+
+```Como serão garantidos os requisitos os requisitos de segurança ?```
+---
+
+```Como será realizado o processo de backup```
+---
+
+```Qual custo da infraestrutura da AWS```
+---
+
