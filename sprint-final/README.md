@@ -59,6 +59,12 @@ Vistas as necessidades de migração e aumento da escalabilidade do e-commerce, 
 
 
 ```Quais atividades necessarias para migração ? ```
+---
+
+
+``` Quais ferramentas vão ser utilizadas ?```
+---
+<br>
 
 <img src="img/aws/EC2.png" width="70">
 <img src="img/aws/EBS.png" width="70">
@@ -66,15 +72,9 @@ Vistas as necessidades de migração e aumento da escalabilidade do e-commerce, 
 <img src="img/aws/RDS.png" width="70">
 <img src="img/aws/DMS.png" width="70">
 
----
-
-
-```Quais ferramentas vão ser utilizadas ?```
 
 
 
-
----
 
 
 ```Qual diagrama da infraestrutura AWS ?```
