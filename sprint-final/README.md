@@ -21,6 +21,10 @@ Essa experiência permite que os participantes consolidem seus conhecimentos em 
 - Francisco Leonardo.
 
 # 💻 Case.
+## Tecnologias usadas:
+[![stack](https://skillicons.dev/icons?i=aws,kubernetes,&perline=10)](https://skillicons.dev)
+
+
 ## Contexto.
 Nós somos da empresa "Fast Engineering S/A" e
 gostaríamos de uma solução dos senhores(as), que
@@ -31,6 +35,13 @@ atual não está atendendo mais a alta demanda de
 acessos e compras que estamos tendo.
 
 ![atores](img/caso.png)
+
+
+A FastEngineer necessita de um ambiente que siga a arquitetura atual do servidor on-premises, com o mínimo de alterações, adotando as boas práticas da AWS para torná-la mais escalável.
+
+O servidor on-premises tem enfrentado problemas de travamentos e lentidão devido ao aumento no volume de acessos.
+
+Após a conclusão da migração, modernizaremos a arquitetura com o objetivo de tornar o e-commerce altamente escalável, utilizando Kubernetes.
 ___
 ### Arquitetura da FastEnginrrting.
 ![Arquitetura atual](img/fast.webp)
@@ -48,6 +59,8 @@ Vistas as necessidades de migração e aumento da escalabilidade do e-commerce, 
 
 
 ```Quais atividades necessarias para migração ? ```
+
+
 ---
 
 
