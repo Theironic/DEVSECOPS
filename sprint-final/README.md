@@ -60,11 +60,20 @@ Vistas as necessidades de migração e aumento da escalabilidade do e-commerce, 
 
 ```Quais atividades necessarias para migração ? ```
 
+<img src="img/aws/EC2.png" width="70">
+<img src="img/aws/EBS.png" width="70">
+<img src="img/aws/S3.png" width="70">
+<img src="img/aws/RDS.png" width="70">
+<img src="img/aws/DMS.png" width="70">
 
 ---
 
 
 ```Quais ferramentas vão ser utilizadas ?```
+
+
+
+
 ---
 
 
@@ -77,6 +86,13 @@ como ficaria a migração lift-and- shift na AWS da FastEnginrrting:
 *Diagrama após a migração*
 
 ```Como serão garantidos os requisitos os requisitos de segurança ?```
+
+Os serviços AWS MGN e AWS DMS garantem a segurança dos dados principalmente por meio de criptografia:
+
+Em trânsito: Usam TLS para proteger o tráfego de dados durante a migração.
+Em repouso: Integram-se ao AWS KMS para criptografar dados armazenados.
+
+Além disso, ambos podem ser isolados em VPCs privadas e utilizam IAM para controle de acesso.
 ---
 
 ```Como será realizado o processo de backup```
