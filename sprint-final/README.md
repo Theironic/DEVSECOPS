@@ -60,13 +60,19 @@ Vistas as necessidades de migração e aumento da escalabilidade do e-commerce, 
 
 ```Quais atividades necessarias para migração ? ```
 ---
+- Instalar o client do AWS MGN 
+- Migrar o Banco de Dados com o AWS DMS
+- Configurar o modelo de execução para as novas instâncias
+- Configurar o modelo de execução para as novas instâncias
+- Migrar para AWS
+
 
 
 ``` Quais ferramentas vão ser utilizadas ?```
 ---
 <br>
 
-<img src="img/aws/EC2.png" width="70">
+<img src="img/aws/EC2.png" width="70" alt="aws ec2">
 <img src="img/aws/EBS.png" width="70">
 <img src="img/aws/S3.png" width="70">
 <img src="img/aws/RDS.png" width="70">
