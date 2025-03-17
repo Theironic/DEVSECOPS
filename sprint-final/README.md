@@ -71,12 +71,23 @@ Vistas as necessidades de migração e aumento da escalabilidade do e-commerce, 
 ``` Quais ferramentas vão ser utilizadas ?```
 ---
 <br>
-
+<div>
 <img src="img/aws/EC2.png" width="70" alt="aws ec2">
-<img src="img/aws/EBS.png" width="70">
-<img src="img/aws/S3.png" width="70">
-<img src="img/aws/RDS.png" width="70">
-<img src="img/aws/DMS.png" width="70">
+<p>Amazon EC2.</p>
+</div>
+
+<div><img src="img/aws/EBS.png" width="70">
+<p>amazon EBS.<p>
+</div>
+<div><img src="img/aws/S3.png" width="70">
+<p>Amazon S3</p>
+</div>
+<div><img src="img/aws/RDS.png" width="70">
+<p>Amazon RDS</p>
+</div>
+<div><img src="img/aws/DMS.png" width="70">
+<p>Amazon DMS</p>
+</div>
 
 
 
@@ -99,15 +110,17 @@ Em trânsito: Usam TLS para proteger o tráfego de dados durante a migração.
 Em repouso: Integram-se ao AWS KMS para criptografar dados armazenados.
 
 Além disso, ambos podem ser isolados em VPCs privadas e utilizam IAM para controle de acesso.
----
+
 
 ```Como será realizado o processo de backup```
 ---
-Será designado um volume EBS para manter a persistência dos dados
+Será designado um volume EBS para manter a persistência dos dados.
 
 ```Qual custo da infraestrutura da AWS```
 ---
 
+![price](img/price.png)
+*custos pos Migração.*
 
 ## Etapa 2 - Modernização/Kubernetes
 
