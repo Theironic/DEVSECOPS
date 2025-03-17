@@ -92,7 +92,7 @@ como ficaria a migração lift-and- shift na AWS da FastEnginrrting:
 *Diagrama após a migração*
 
 ```Como serão garantidos os requisitos os requisitos de segurança ?```
-
+---
 Os serviços AWS MGN e AWS DMS garantem a segurança dos dados principalmente por meio de criptografia:
 
 Em trânsito: Usam TLS para proteger o tráfego de dados durante a migração.
@@ -103,6 +103,7 @@ Além disso, ambos podem ser isolados em VPCs privadas e utilizam IAM para contr
 
 ```Como será realizado o processo de backup```
 ---
+Será designado um volume EBS para manter a persistência dos dados
 
 ```Qual custo da infraestrutura da AWS```
 ---
