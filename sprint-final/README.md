@@ -163,7 +163,7 @@ Será designado um volume EBS para manter a persistência dos dados
 
 <div align="center">
 
-![diagrama etapa 2](imgs/diagrama-kubernetes-modernizacao.png)
+![diagrama etapa 2](img/diagrama-kubernetes-modernizacao.png)
 
 **Diagrama do ambiente na AWS após a modernização para Kubernetes**
 
@@ -234,9 +234,9 @@ A arquitetura utiliza dos seguintes itens para garantir a segurança:
 
 `Levantamento com todas as tecnologias utilizadas` ⬇️
 
-![Estimative 2 part1](imgs/estimativa2-parte1.png)
+![Estimative 2 part1](img/estimativa2-parte1.png)
 
-![Estimative 2 part2](imgs/estimativa2-parte2.png)
+![Estimative 2 part2](img/estimativa2-parte2.png)
 
 ## Resumo da Estimativa de Custo na AWS (17/03/2025)
 
