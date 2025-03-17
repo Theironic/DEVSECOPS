@@ -118,9 +118,16 @@ O sistema será implantado em duas zonas de disponibilidade. Em cada zona, haver
 
 ```Qual custo da infraestrutura da AWS```
 ---
+```custos durante a Migração.```
+![](img/price2.png)
+
+Custo mensal Estimado:523,92 USD
 
 ![price](img/price.png)
-*custos pos Migração.*
+```custos Pós Migração.```
+
+
+Custo mensal Estimado:331,78 USD
 
 ## Etapa 2 - Modernização/Kubernetes
 
