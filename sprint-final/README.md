@@ -114,7 +114,7 @@ Além disso, ambos podem ser isolados em VPCs privadas e utilizam IAM para contr
 
 ```Como será realizado o processo de backup```
 ---
-Será designado um volume EBS para manter a persistência dos dados.
+O sistema será implantado em duas zonas de disponibilidade. Em cada zona, haverá uma instância vinculada ao seu respectivo volume EBS, mantido em sincronia. O banco de dados contará com uma réplica localizada na outra zona de disponibilidade.
 
 ```Qual custo da infraestrutura da AWS```
 ---
